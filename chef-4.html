@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seiji Yamamoto</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.png" alt="recipe mania" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a href="about.html" class="nav-link"> about </a>
+          <a href="recipes.html" class="nav-link"> recipes </a>
+          <a href="mentors.html" class="nav-link"> mentors </a>
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <main class="page">
+      <div class="recipe-page">
+        <h2>Seiji Yamamoto</h2>
+        <section class="about-page">
+          <img
+            src="./assets/recipes/chef-4.jpeg"
+            class="img recipe-hero-img"
+          />
+          <article>
+            <form class="form contact-form">
+              <div class="form-row">
+                <label html="name" class="form-label">your name</label>
+                <input type="text" name="name" id="name" class="form-input" />
+              </div>
+              <div class="form-row">
+                <label html="email" class="form-label">your email</label>
+                <input type="text" name="email" id="email" class="form-input" />
+              </div>
+              <div class="form-row">
+                <label html="message" class="form-label">message</label>
+                <textarea name="message" id="message" class="form-textarea"></textarea>
+              </div>
+              <button type="submit" class="btn btn-block">
+                submit
+              </button>
+            </form>
+          </article>
+          <article class="recipe-info">
+            <p>
+              Seiji Yamamoto (山本征治, Yamamoto Seiji, born 1970) is a Japanese chef, who holds five Michelin stars at his restaurants, including Nihonryori RyuGin. His restaurant has been named in The World's 50 Best Restaurants, while he has placed fifth in Le Chef's list of the best chefs in the world.
+            </p>
+            <p>
+              Yamamoto's food has been described as a combination of the Japanese Kaiseki with elements of molecular gastronomy, although he does not use those descriptors himself. His first experience of cooking was at 11 years old, when he made a dish of vegetables and rice at school. This impressed his mother, and he then would cook with her frequently. Yamamoto sometimes resented this as a child because it meant he did not have time to play, but felt it was worthwhile when he saw how happy his mother was when he made her dinner. Following culinary school, he spent the following 11 years working under Hirohisa Koyama at his restaurant Aoyagi.
+            </p>
+            <p>
+              At his restaurants, he takes on staff from a variety of cultural backgrounds to allow the things they learn there to be spread to other countries - with this he hopes that Japanese cuisine can continue to evolve. Yamamoto feels that unlike Chinese cuisine, the elements of Japanese food are not well described in other cultures it should be combined with the places it travels to. He compared replicating Japanese food exactly in Hong Kong to producing counterfeit money.
+            </p>
+          </article>
+          
+        </section>
+        <!-- content -->
+        </section>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">Recipes</span> Built by
+        <a href="suryam.btech23@rvu.edu.in">Surya & Yashaswini</a>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
